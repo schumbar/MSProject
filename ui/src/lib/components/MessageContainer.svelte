@@ -28,7 +28,7 @@
         {#if message.from_devika}
           <img
             src="/assets/devika-avatar.png"
-            alt="Devika's Avatar"
+            alt="AIDevX's Avatar"
             class="flex-shrink-0 rounded-full avatar"
             style="width: 28px; height: 28px;"
           />
@@ -42,7 +42,7 @@
         {/if}
         <div class="flex flex-col w-full text-sm">
           <p class="text-xs text-gray-400">
-            {message.from_devika ? "Devika" : "You"}
+            {message.from_devika ? "AIDevX" : "You"}
             <span class="timestamp">{new Date(message.timestamp).toLocaleTimeString()}</span>
           </p>
           {#if message.from_devika && message.message.startsWith("{")}
